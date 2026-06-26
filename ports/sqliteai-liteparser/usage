@@ -1,0 +1,7 @@
+The package SQLiteAILiteparser provides CMake targets:
+
+    find_package(SQLiteAILiteparser CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE SQLiteAI::liteparser-static)
+    # OR
+    target_link_libraries(main PRIVATE SQLiteAI::liteparser-shared)
+

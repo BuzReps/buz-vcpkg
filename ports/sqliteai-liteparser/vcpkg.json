@@ -1,0 +1,16 @@
+{
+  "name": "sqliteai-liteparser",
+  "version": "1.0.0",
+  "description": "A lightweight, embeddable SQL parser designed for SQLite-based applications. It parses SQL statements into a structured representation that can be inspected, analyzed, or transformed programmatically.",
+  "homepage": "https://github.com/sqliteai/liteparser",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
